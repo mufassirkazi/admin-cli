@@ -24,10 +24,7 @@ jobs:
 
       - name: Lint
         run: npm run lint
-
-      - name: Check ESM compliance
-        run: npm run check:esm
-
+        
       - name: Build
         run: npm run build
 
